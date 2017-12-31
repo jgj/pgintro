@@ -1,8 +1,12 @@
 {
   "name": "pgintro",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Introspect a Postgres database and generate TypeScript types.",
   "main": "dist/introspect.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgj/pgintro.git"
+  },
   "scripts": {
     "build": "rm -rf dist/* && tsc && cp src/introspect.sql dist/",
     "test": "jest --coverage",

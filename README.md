@@ -74,7 +74,7 @@ Create a file `.test.env` in the root of the repository that contains a TEST_DAT
 
 ```
 # .test.env
-TEST_DATABASE_URL='http://user:doplhin1@localhost:5432'
+TEST_DATABASE_URL='http://user:dolphins@localhost:5432'
 ```
 
 The tests will create a temporary database upon startup and delete it once the tests have completed.
