@@ -1,0 +1,5 @@
+.coverage
+*.env
+.reference
+node_modules
+dist
